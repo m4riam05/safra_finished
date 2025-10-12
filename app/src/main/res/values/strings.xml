@@ -3,14 +3,14 @@
     <string name="app_moto">Because Your Safety Matters</string>
 
     <string name="onboarding_slide1_title">Welcome to Safra</string>
-    <string name="onboarding_slide1_subtitle">Your personal guardian app for women\'s safety</string>
-    <string name="onboarding_slide1_desc">SheGuard empowers and protects you. Let\'s start your journey toward safety and peace of mind.</string>
+    <string name="onboarding_slide1_subtitle">Your personal guardian app for safety</string>
+    <string name="onboarding_slide1_desc">Safra empowers and protects you. Let\'s start your journey toward safety and peace of mind.</string>
     <string name="onboarding_slide2_title">Your Safety, Your Way</string>
     <string name="onboarding_slide2_subtitle">Customized protection at your fingertips</string>
-    <string name="onboarding_slide2_desc">Tailor SheGuard to your preferences, choosing the features that matter most.</string>
+    <string name="onboarding_slide2_desc">Tailor Safra to your preferences, choosing the features that matter most.</string>
     <string name="onboarding_slide3_title">A Supportive Community</string>
     <string name="onboarding_slide3_subtitle">Be more independent and feel the happiness</string>
-    <string name="onboarding_slide3_desc">Join our community of strong women, access resources, and stand together for safety and empowerment.</string>
+    <string name="onboarding_slide3_desc">Join our supportive community, access vital resources, and stand together for safety and empowerment.</string>
 
     <string name="next">Next</string>
     <string name="skip">Skip</string>
@@ -49,17 +49,19 @@
     <string name="activity_about_title">About</string>
     <string name="activity_about_desc">Learn more about our mission</string>
 
-    <string name="background_story">In recent years, we\'ve witnessed a surge in incidents targeting women, children, and the elderly. These atrocities have grown increasingly alarming, urging us to seek a solution. Introducing SheGuard, our innovative response to these challenges.\n\nSheGuard empowers you by putting your safety back into your hands. We\'ve developed a comprehensive SMS Alert system that keeps your family and friends informed during times of distress.</string>
-    <string name="whats_good">What\'s Good About This App?</string>
+    <string name="background_story">Amidst rising global safety concerns, we\'ve witnessed a significant increase in incidents targeting women, children, and the elderly. These atrocities have grown increasingly alarming, urging us to seek an accessible and immediate solution. Introducing Safra, our innovative, voice-activated response to these critical challenges.
+
+Safra empowers you by putting the power of safety back into your voice. We\'ve developed a comprehensive, hands-free SOS system that keeps your family and friends immediately informed during distress. With a simple voice command, Safra sends your live location to trusted contacts, ensuring faster, reliable support when you need it most.</string>
+    <string name="whats_good">Core benefits of Safra</string>
     <string name="intuitive_design">Intuitive Design</string>
-    <string name="intuitive_design_desc">Experience seamless navigation through our app, designed with the principles of material design, ensuring both functionality and aesthetics.</string>
+    <string name="intuitive_design_desc">Our app features a clear, user-friendly interface built on Material Design principles, guaranteeing effortless functionality and a beautiful look.</string>
     <string name="effortless_registration">Effortless Registration</string>
-    <string name="effortless_registration_desc">Join our community swiftly with our hassle-free, multi-option registration process. Your safety is just moments away.</string>
+    <string name="effortless_registration_desc">Secure your safety in moments: our straightforward registration gets you into the Safra community swiftly.</string>
     <string name="automatic_alerts">Automatic Alerts</string>
-    <string name="automatic_alerts_desc">SheGuard provides you with an instant lifeline. A simple press of the SOS button sends automated SMS alerts to your selected contacts, including your precise location.</string>
-    <string name="meet_the_developer">Meet The Developer</string>
-    <string name="dev_name">Mahmudul Hasan Khan</string>
-    <string name="dev_bio">Passionate Android Developer\nOpen-source contributor</string>
+    <string name="automatic_alerts_desc">Safra delivers an instant lifeline: a single tap of the SOS button triggers automated SMS alerts with your exact live location to your trusted contacts.</string>
+    <string name="meet_the_developer">Meet The Developers</string>
+    <string name="dev_name">Saniya-Mariam-Sancho-Arjun</string>
+    <string name="dev_bio">Passionate Android Developers</string>
     <string name="github">Github</string>
     <string name="contact_empty">Contact list is empty</string>
     <string name="new_name">New name</string>
@@ -101,7 +103,7 @@
     <string name="call_emergency_service">Call emergency service</string>
     <string name="call_emergency_service_desc">Automatically call national emergency service in emergency mode.</string>
     <string name="btn_resend_email">Resend Email</string>
-    <string name="dev_github_link" translatable="false">https://github.com/Mahmud0808</string>
+    <string name="dev_github_link" translatable="false">https://github.com/sanchothampy</string>
     <string name="remove_contact_confirmation">Are you sure you want to remove this contact?</string>
     <string name="contact_removed_successfully">Contact removed successfully</string>
     <string name="yes">Yes</string>
@@ -156,41 +158,41 @@
     <string name="helpline_name2">National Emergency Hotline Number</string>
     <string name="helpline_name3">National Hotline Number</string>
     <string name="helpline_name4">National helpline center for violence against women</string>
-    <string name="helpline_name5">Kaan Pete Roi</string>
-    <string name="helpline_name6">Moner Bondhu</string>
-    <string name="helpline_name7">Sajida Foundation</string>
-    <string name="helpline_name8">Dosh Unisher Mor Helpdesk for GBV/SRHR/psychosocial support.</string>
-    <string name="helpline_name9">Ain o Salish Kendra (ASK)</string>
-    <string name="helpline_name10">Bandhu Social Welfare Society (In collaboration with Ministry of Social Welfare)</string>
-    <string name="helpline_name11">Friendship Bangladesh</string>
-    <string name="helpline_name12">Action Against Hunger (ACF BD)</string>
+    <string name="helpline_name5">Vandervala Foundation</string>
+    <string name="helpline_name6">Tele-MANAS(India)</string>
+    <string name="helpline_name7">iCALL (TISS)</string>
+    <string name="helpline_name8">KIRAN / NIMHANS Helpline</string>
+    <string name="helpline_name9">Women\'s Helpline (Kerala)</string>
+    <string name="helpline_name10">State Social Welfare Department helpline or Kerala State Women\'s Development Helpline (WDC)</string>
+    <string name="helpline_name11">AASRA</string>
+    <string name="helpline_name12">Jeevan Aastha Helpline</string>
     <string name="helpline_desc1">Multi sectoral referral and psychosocial support; This is the main helpline number to call and has been/being circulated nationwide.</string>
     <string name="helpline_desc2">Immediate services to police and hospitals.</string>
     <string name="helpline_desc3">Immediate reports/help for any social problems from enquiring after COVID 19 to child marriage and sexual harassment cases.</string>
     <string name="helpline_desc4">Immediate service to victims and links up to relevant agencies: doctors, counselors, lawyers, DNA experts, police officers.</string>
-    <string name="helpline_desc5"><![CDATA[Mental Health & Psychosocial helpline.]]></string>
-    <string name="helpline_desc6"><![CDATA[Mental Health & Psychosocial helpline.]]></string>
-    <string name="helpline_desc7"><![CDATA[Mental Health & Psychosocial helpline. (9AM - 5PM)]]></string>
-    <string name="helpline_desc8"><![CDATA[Mental Health & Psychosocial helpline.]]></string>
+    <string name="helpline_desc5"><![CDATA[Mental Health &amp; Psychosocial helpline.]]></string>
+    <string name="helpline_desc6"><![CDATA[Mental Health &amp; Psychosocial helpline.]]></string>
+    <string name="helpline_desc7"><![CDATA[Mental Health &amp; Psychosocial helpline. (9AM - 5PM)]]></string>
+    <string name="helpline_desc8"><![CDATA[Mental Health &amp; Psychosocial helpline.]]></string>
     <string name="helpline_desc9">Legal assistance, emergency shelter and mental healthcare.</string>
     <string name="helpline_desc10">Psychosocial support as well as guideline for SRHR and legal aspects.</string>
     <string name="helpline_desc11">Advices on primary healthcare, SGBV and psychosocial support.</string>
     <string name="helpline_desc12">Psychosocial support and case management.</string>
-    <string name="helpline_num1">109</string>
+    <string name="helpline_num1">181</string>
     <string name="helpline_num2">999</string>
     <string name="helpline_num3">333</string>
     <string name="helpline_num4">10921</string>
-    <string name="helpline_num6">1776632344</string>
-    <string name="helpline_num7_1">9678771511</string>
+    <string name="helpline_num6">14416</string>
+    <string name="helpline_num7_1">022-25521111</string>
     <string name="helpline_num7_2">01777771515 (9AM - 5PM)</string>
-    <string name="helpline_num8">9612600600</string>
-    <string name="helpline_num9">01724415677 (9AM - 5PM)</string>
-    <string name="helpline_num10_1">01714048418 (SRHR)</string>
+    <string name="helpline_num8">080-46110007</string>
+    <string name="helpline_num9">181</string>
+    <string name="helpline_num10_1">181</string>
     <string name="helpline_num10_2">01771 444666 (legal)</string>
-    <string name="helpline_num11">01880081111 (24/7 Helpline) based in Cox\'s Bazar</string>
-    <string name="helpline_num12_1">01888066747 (For Chittagong Region, including Cox’s Bazar district)</string>
-    <string name="helpline_num12_2">01869859757 (For Dhaka and rest of the districts)</string>
-    <string name="helpline_num5_1">01779554391</string>
+    <string name="helpline_num11">022-27546669(24/7 Emotional support in India)</string>
+    <string name="helpline_num12_1">1800-2333330</string>
+    <string name="helpline_num12_2">01869859757</string>
+    <string name="helpline_num5_1">9999666555</string>
     <string name="helpline_num5_2">01779554392</string>
     <string name="helpline_num5_3">01688709965</string>
     <string name="helpline_num5_4">01688709966</string>
@@ -202,8 +204,29 @@
     <string name="nav_close">Close</string>
 
     <string name="signal_loss_message">Hi %1$s, I\'ve lost my phone signal. My last known location was here: %2$s</string>
-    <string name="safe_check_in_message">Hi %1$s, this is a safe check-in from %2$s. I wanted to let you know that I am safe.</string>
+    <string name="safe_check_in_message">Hi %1$s, this is a safe check-in from %2$s. I wanted to let you know that I\'m safe.</string>
     <string name="activity_safe_checkin_title">Safe Check-in</string>
     <string name="activity_safe_checkin_desc">Send an "I\'m safe" message</string>
 
+    <string name="activity_manual_title">User Manual</string>
+
+    <string name="safra_manual_content">
+    <![CDATA[
+    Welcome to SAFRA, your trusted personal safety application. SAFRA is designed to give you fast, discreet, and reliable ways to reach your contacts and emergency services when you need help.\n\n
+    \u2022 SOS Button: The Primary Alert. This is the large, unmistakable red button on your home screen. Tapping it immediately triggers Emergency Mode. This action sends a critical alert, including your precise GPS location, to your trusted contacts via two channels: a reliable SMS text message and an instant Notification. You can customize the response in Settings to optionally play a loud, attention-drawing Siren.\n\n
+    \u2022 Voice Activation: The Hands-Free Option. This feature allows you to activate Emergency Mode without touching your phone. Simply say your custom voice command (e.g., "Safra, help me!") to trigger the full alert sequence. This is invaluable when your phone is out of reach or your hands are occupied. Requirement: For constant readiness, the Wake Word Service must be enabled and running in the background, which uses the Microphone permission to listen for your command.\n\n
+    \u2022 Shake Detection: The Discreet Option. A powerful feature for emergencies where speaking or looking at the screen is risky. Enable this in Settings to start Emergency Mode by vigorously shaking your phone. You can adjust the shake sensitivity to prevent accidental triggers. Requirement: This needs the dedicated Shake Detection Service to be active.\n\n
+    \u2022 Safe Check-in: Reassurance on the Go. This dedicated card offers a fast way to reassure your loved ones. Tap it to immediately send an "I\'m safe" message to all your trusted contacts via SMS. Use this after arriving at a destination or exiting a high-risk situation.\n\n
+    \u2022 Contacts (Trusted Circle Management): This is the most critical list in the app. These are the specific people who will receive all your SOS alerts and Safe Check-in messages. It is absolutely essential to ensure this list is kept current and accurate with reliable numbers, as the app can only alert the contacts listed here.\n\n
+    \u2022 Helpline: Emergency Directory. Provides quick access to a centralized directory of national and regional emergency numbers and support hotlines (e.g., Police, Fire, Ambulance, Crisis support). Tap any listed number to place an immediate call, saving valuable time during a crisis.\n\n
+    \u2022 Settings: Your Control Center. This is where you tailor the app\'s behavior. Key configurations include: enabling/disabling Emergency Mode actions (SMS Alert, Notification Alert, audible Siren, and Auto-Call to your primary contact) and managing the activation and sensitivity of the Shake Detection feature.\n\n
+    \u2022 Permissions: System Requirements. For SAFRA to function with its full life-saving capability, it requires essential system permissions: Location (to send your exact GPS coordinates), SMS (to send text alerts), Phone (to place the Auto-Call), and Microphone (for Voice Activation). Troubleshooting: If any alert fails to send or feature doesn\'t work, immediately check your phone\'s global app permissions to ensure all four are granted to SAFRA.
+    ]]>
+    </string>
+
+    <string name="activity_map_desc">View your location and nearby safe zones</string>
+
+    <string name="activity_manual_desc">Detailed instructions on app features and settings.</string>
+
+    <string name="activity_map_title">Safe Map</string>
 </resources>

@@ -30,7 +30,6 @@
                 android:elevation="12dp"
                 android:gravity="center"
                 android:orientation="vertical">
-
                 <TextView
                     android:layout_width="168dp"
                     android:layout_height="wrap_content"
@@ -42,7 +41,6 @@
                     android:textAlignment="center"
                     android:textColor="?attr/colorOnError"
                     android:textSize="60sp" />
-
             </LinearLayout>
 
             <com.google.android.material.button.MaterialButton
@@ -57,16 +55,54 @@
                 android:textSize="16sp"
                 app:cornerRadius="@dimen/component_corner_radius" />
 
-            <!-- Row 1 -->
             <LinearLayout
+                android:id="@+id/card_safe_map"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/margin_16"
                 android:layout_marginTop="@dimen/margin_16"
+                android:layout_marginBottom="@dimen/margin_8"
+                android:background="@drawable/container"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="18dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@android:string/untitled"
+                    android:src="@drawable/ic_safe_map"
+                    app:tint="?attr/colorPrimary"
+                    android:layout_marginEnd="16dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_map_title"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_map_desc"
+                        android:textColor="?attr/colorOnSurfaceVariant"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_16"
                 android:baselineAligned="false"
                 android:orientation="horizontal">
-
-                <!-- ✅ New "Safe Check-in" button, styled like the others -->
                 <LinearLayout
                     android:id="@+id/safe_checkin"
                     android:layout_width="0dp"
@@ -82,7 +118,6 @@
                     android:paddingVertical="15dp"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp">
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -90,7 +125,6 @@
                         android:textColor="?attr/colorOnSurface"
                         android:textSize="16sp"
                         android:textStyle="bold" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
@@ -99,7 +133,6 @@
                         android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="15sp"
                         tools:ignore="NestedWeights" />
-
                     <ImageView
                         android:layout_width="28dp"
                         android:layout_height="28dp"
@@ -108,10 +141,7 @@
                         android:contentDescription="@android:string/untitled"
                         android:src="@drawable/ic_safe_checkin"
                         app:tint="?attr/colorPrimary" />
-
                 </LinearLayout>
-
-                <!-- ✅ Contacts button, now in the top-right position -->
                 <LinearLayout
                     android:id="@+id/contacts"
                     android:layout_width="0dp"
@@ -127,7 +157,6 @@
                     android:paddingVertical="15dp"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp">
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -135,7 +164,6 @@
                         android:textColor="?attr/colorOnSurface"
                         android:textSize="16sp"
                         android:textStyle="bold" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
@@ -144,7 +172,6 @@
                         android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="15sp"
                         tools:ignore="NestedWeights" />
-
                     <ImageView
                         android:layout_width="28dp"
                         android:layout_height="28dp"
@@ -153,11 +180,9 @@
                         android:contentDescription="@android:string/untitled"
                         android:src="@drawable/ic_contacts"
                         app:tint="?attr/colorPrimary" />
-
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- Row 2 -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -180,7 +205,6 @@
                     android:paddingVertical="15dp"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp">
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -188,13 +212,52 @@
                         android:textColor="?attr/colorOnSurface"
                         android:textSize="16sp"
                         android:textStyle="bold" />
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:text="@string/activity_safety_tips_desc"
                         android:textColor="?attr/colorOnSurfaceVariant"
+                        android:textSize="15sp"
+                        tools:ignore="NestedWeights" />
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="start|bottom"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:contentDescription="@android:string/untitled"
+                        android:src="@drawable/ic_safety_tips"
+                        app:tint="?attr/colorPrimary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/card_user_manual"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_weight="1"
+                    android:background="@drawable/container"
+                    android:baselineAligned="false"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:paddingVertical="15dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_manual_title"  android:textColor="?attr/colorOnSurface"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/activity_manual_desc"  android:textColor="?attr/colorOnSurfaceVariant"
                         android:textSize="15sp"
                         tools:ignore="NestedWeights" />
 
@@ -204,9 +267,57 @@
                         android:layout_gravity="start|bottom"
                         android:layout_marginTop="@dimen/margin_16"
                         android:contentDescription="@android:string/untitled"
-                        android:src="@drawable/ic_safety_tips"
-                        app:tint="?attr/colorPrimary" />
+                        android:src="@drawable/ic_user_manual"  app:tint="?attr/colorPrimary" />
 
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_16"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/helpline"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_4"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_weight="1"
+                    android:background="@drawable/container"
+                    android:baselineAligned="false"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:paddingVertical="15dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_helpline_title"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/activity_helpline_desc"
+                        android:textColor="?attr/colorOnSurfaceVariant"
+                        android:textSize="15sp"
+                        tools:ignore="NestedWeights" />
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="start|bottom"
+                        android:layout_marginTop="@dimen/margin_16"
+                        android:contentDescription="@android:string/untitled"
+                        android:src="@drawable/ic_helpline"
+                        app:tint="?attr/colorPrimary" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -254,68 +365,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- Row 3 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/margin_16"
-                android:baselineAligned="false"
-                android:orientation="horizontal">
-
-                <!-- ✅ Helpline button, now in a new row -->
-                <LinearLayout
-                    android:id="@+id/helpline"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/margin_4"
-                    android:layout_marginBottom="@dimen/margin_8"
-                    android:layout_weight="1"
-                    android:background="@drawable/container"
-                    android:baselineAligned="false"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:orientation="vertical"
-                    android:paddingVertical="15dp"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/activity_helpline_title"
-                        android:textColor="?attr/colorOnSurface"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="@string/activity_helpline_desc"
-                        android:textColor="?attr/colorOnSurfaceVariant"
-                        android:textSize="15sp"
-                        tools:ignore="NestedWeights" />
-
-                    <ImageView
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:layout_gravity="start|bottom"
-                        android:layout_marginTop="@dimen/margin_16"
-                        android:contentDescription="@android:string/untitled"
-                        android:src="@drawable/ic_helpline"
-                        app:tint="?attr/colorPrimary" />
-
-                </LinearLayout>
-
-                <!-- This is an empty placeholder to keep the layout aligned -->
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginStart="@dimen/margin_4"
-                    android:layout_weight="1" />
-
-            </LinearLayout>
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
@@ -323,7 +372,4 @@
         android:id="@+id/header"
         layout="@layout/view_header_expandable" />
 
-    <!-- ✅ The old button at the top has been removed -->
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
-

@@ -26,17 +26,18 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:src="@drawable/ic_launcher_background" />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shield_logo"
+                    android:contentDescription="@string/app_name" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:scaleX="1.4"
-                    android:scaleY="1.4"
-                    android:src="@drawable/ic_launcher_foreground" />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shield_logo"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/app_name" />
 
             </FrameLayout>
 
@@ -181,13 +182,14 @@
                 android:text="@string/meet_the_developer"
                 android:textAlignment="center" />
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/developer"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/img_drdisagree" />
+                android:scaleType="fitCenter"
+                android:contentDescription="A small, centered image" />
 
             <com.google.android.material.textview.MaterialTextView
                 style="@style/TextAppearance.Material3.TitleMedium"

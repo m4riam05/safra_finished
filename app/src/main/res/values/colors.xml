@@ -15,4 +15,5 @@
     <color name="textColorSecondary">#CC000000</color>
     <color name="login_bg">#DFF2F6</color>
     <color name="safra_blue">#3498DB</color>
+    <color name="safra_background_dark">#FF121212</color>
 </resources>

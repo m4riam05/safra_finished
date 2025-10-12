@@ -96,5 +96,13 @@
         android:name="com.safra.app.ui.fragment.EditProfileFragment"
         android:label="fragment_edit_profile"
         tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/nav_user_manual"
+        android:name="com.safra.app.ui.fragment.UserManualFragment"
+        android:label="User Manual" />
 
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.safra.app.ui.fragment.MapFragment"
+        android:label="Safety Map" />
 </navigation>
